@@ -1,0 +1,91 @@
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  color: darkcyan
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color:darkcyan
+}
+
+.list-inline a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  color: black;
+  font-size: 30px ;
+}
+
+.list-inline a:hover{
+  color: lightblue;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black
+}
+#picture {
+  width: 100px;
+  border-radius:60px
+}
+
+.container{
+  background-color:lightblue;
+  padding:50px;
+  margin:15px auto;
+  border-radius:5px;
+  text-align: center;
+  width: 700px;
+}
+
+.card {
+  background-color:white;
+  padding:20px;
+  margin:20px auto;
+  border-radius:10px;
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn_blue {
+  background-color:darkcyan;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  text-decoration: none;
+}
+.btn_blue:hover{
+  background-color: lightblue;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 650px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 250px;
+  }
+}
