@@ -1,76 +1,81 @@
-
-h1 {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  color: darkcyan
-}
-h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  color:darkcyan
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
 }
 
-.list-inline a {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  color: black;
-  font-size: 30px ;
-}
-
-.list-inline a:hover{
-  color: lightblue;
-}
-
-.list-inline li{
-  display: inline;
-  padding: 10px;
-}
-
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: black
-}
-#picture {
-  width: 100px;
-  border-radius:60px
-}
-
-.container{
-  background-color:lightblue;
-  padding:50px;
-  margin:15px auto;
-  border-radius:5px;
-  text-align: center;
-  width: 700px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .card {
-  background-color:white;
-  padding:20px;
-  margin:20px auto;
-  border-radius:10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
   text-align: center;
+  width: 80%;
+  max-width: 400px;
 }
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
+
+#picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
 }
 
 .btn_blue {
-  background-color:darkcyan;
+  background-color: #007bff;
   color: white;
-  padding: 10px 10px;
-  border-radius: 4px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.btn_blue:hover {
+  background-color: #0056b3;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li a {
+  color: #333;
+  font-size: 24px;
   text-decoration: none;
 }
-.btn_blue:hover{
-  background-color: lightblue;
+
+.list-inline li a:hover {
+  color: #007bff;
 }
+
 
 @media (max-width: 960px) {
   .container {
